@@ -1,0 +1,20 @@
+{
+    "name": "faraon030192/smi-codevery-new",
+    "description": "new plagin",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "smi",
+            "email": "smi@codevery.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle-instagram-subscriber": "dev-master",
+        "raiym/instagram-php-scraper": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}
